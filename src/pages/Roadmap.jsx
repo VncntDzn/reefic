@@ -1,4 +1,3 @@
-import React from 'react';
 import {
   Box,
   makeStyles,
@@ -7,7 +6,6 @@ import {
   AccordionSummary,
   AccordionDetails,
 } from '@material-ui/core';
-import PropTypes from 'prop-types';
 import RoadmapBG from 'assets/roadmap/roadmap.png';
 import ExpandMoreIcon from '@material-ui/icons/ExpandMore';
 
@@ -74,7 +72,5 @@ const Roadmap = (props) => {
     </Box>
   );
 };
-
-Roadmap.propTypes = {};
 
 export default Roadmap;

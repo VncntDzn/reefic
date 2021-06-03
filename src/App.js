@@ -3,12 +3,10 @@ import Footer from 'layouts/Footer';
 import { LandingPage } from 'pages'
 import Cast from 'pages/Cast';
 import Contact from 'pages/Contact';
-import Cycle from 'pages/Cycle';
 import Partnership from 'pages/Partnership';
 import PressRelease from 'pages/PressRelease';
 import Promotions from 'pages/Promotions';
 import ProtocolUpdates from 'pages/ProtocolUpdates';
-import Roadmap from 'pages/Roadmap';
 import YoutubeThumbnail from 'pages/YoutubeThumbnail'
 import theme from 'theme/theme';
 

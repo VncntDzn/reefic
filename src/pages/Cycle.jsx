@@ -1,5 +1,3 @@
-import React from 'react';
-import PropTypes from 'prop-types';
 import Benefits from 'assets/cycle/benefits.png';
 
 import {
@@ -140,7 +138,5 @@ const Cycle = (props) => {
     </Grid>
   );
 };
-
-Cycle.propTypes = {};
 
 export default Cycle;
