@@ -129,7 +129,7 @@ const ProtocolUpdates = (props) => {
           </Box>
         ))}
       </Box>
-      <Button variant='contained' color='primary'>
+      <Button variant='contained' color='primary' style={{marginBottom: 10 >
         MORE EVENTS
       </Button>
     </Box>
