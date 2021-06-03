@@ -1,24 +1,34 @@
-import logo from './logo.svg';
-import './App.css';
+import { CssBaseline, ThemeProvider, } from '@material-ui/core';
+import Footer from 'layouts/Footer';
+import { LandingPage } from 'pages'
+import Cast from 'pages/Cast';
+import Contact from 'pages/Contact';
+import Cycle from 'pages/Cycle';
+import Partnership from 'pages/Partnership';
+import PressRelease from 'pages/PressRelease';
+import Promotions from 'pages/Promotions';
+import ProtocolUpdates from 'pages/ProtocolUpdates';
+import Roadmap from 'pages/Roadmap';
+import YoutubeThumbnail from 'pages/YoutubeThumbnail'
+import theme from 'theme/theme';
 
-function App() {
+const App = () => {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <ThemeProvider theme={theme} >
+      <CssBaseline />
+      <LandingPage />
+      <YoutubeThumbnail />
+      <PressRelease />
+      <ProtocolUpdates />
+      {/* <Cycle />
+      <Roadmap /> */}
+      <Cast />
+      <Partnership />
+      <Promotions />
+      <Contact />
+      <Footer />
+
+    </ThemeProvider>
   );
 }
 
